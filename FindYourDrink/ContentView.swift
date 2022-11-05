@@ -10,17 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            Text("Hello World")
-        }
-        .onAppear {
-            Network.sharedInstance.getRandomDrinks { results in
-                switch results {
-                case .success(let drinks):
-                    print(drinks)
-                case .failure(let error):
-                    print(error)
-                }
-            }
+            DrinksMainView()
         }
     }
 }
