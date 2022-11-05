@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct DrinksCardView: View {
+    
+    @Environment(\.colorScheme) private var colorScheme
+    
     let imageURL: URL?
     let drinkName: String
     let drinkType: String
@@ -19,7 +22,7 @@ struct DrinksCardView: View {
     }
     
     var body: some View {
-        VStack{
+        VStack {
             HStack {
                 AsyncImage(url: imageURL) { image in
                     image.resizable()
@@ -36,6 +39,21 @@ struct DrinksCardView: View {
                 }
             }
             .padding()
+            .frame(maxWidth: .infinity)
+            .background(backgroundColor)
+            .cornerRadius(25.0)
+        }
+        .padding()
+    }
+    
+    private var backgroundColor: Color {
+        switch colorScheme {
+        case .light:
+            return Color(white: 0.8)
+        case .dark:
+            return Color(white: 0.2)
+        @unknown default:
+            return Color(white: 0.2)
         }
     }
 }
