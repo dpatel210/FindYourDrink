@@ -19,8 +19,23 @@ struct DrinksCardView: View {
     }
     
     var body: some View {
-        HStack {
-            AsyncImage(url: imageURL)
+        VStack{
+            HStack {
+                AsyncImage(url: imageURL) { image in
+                    image.resizable()
+                        .frame(width:60, height: 60)
+                        .clipShape(Circle())
+                } placeholder: {
+                    Image(systemName: "cup.and.saucer.fill")
+                }
+                VStack(alignment: .leading) {
+                    Text(drinkName)
+                        .font(.title2)
+                    Text(drinkType)
+                        .font(.caption)
+                }
+            }
+            .padding()
         }
     }
 }
