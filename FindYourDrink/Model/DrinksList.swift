@@ -8,6 +8,6 @@
 import Foundation
 
 
-struct DrinksList {
-    
+struct DrinksList: Codable {
+    let drinks: [Drink]
 }

@@ -7,12 +7,10 @@
 
 import Foundation
 
+// Data in the JSON does not place ingredients and measurements into an array on server side
 struct Drink: Codable {
     let idDrink: String
     let strDrink: String
     let strTags: String
     let strInstructions: String
-    let 
-    
-    
 }
