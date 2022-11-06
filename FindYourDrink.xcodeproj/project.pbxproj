@@ -16,7 +16,7 @@
 		987F0F0D2916CCC600F3EADC /* FindYourDrinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F0F0C2916CCC600F3EADC /* FindYourDrinkTests.swift */; };
 		987F0F172916CCC600F3EADC /* FindYourDrinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F0F162916CCC600F3EADC /* FindYourDrinkUITests.swift */; };
 		987F0F192916CCC600F3EADC /* FindYourDrinkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F0F182916CCC600F3EADC /* FindYourDrinkUITestsLaunchTests.swift */; };
-		987F0F272916D03300F3EADC /* MockData.json in Resources */ = {isa = PBXBuildFile; fileRef = 987F0F262916D03300F3EADC /* MockData.json */; };
+		987F0F272916D03300F3EADC /* MockData1.json in Resources */ = {isa = PBXBuildFile; fileRef = 987F0F262916D03300F3EADC /* MockData1.json */; };
 		987F0F292916D1FE00F3EADC /* DrinksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F0F282916D1FE00F3EADC /* DrinksList.swift */; };
 		987F0F2B2916D23100F3EADC /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F0F2A2916D23100F3EADC /* Drink.swift */; };
 		987F0F2E2916D82200F3EADC /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F0F2D2916D82200F3EADC /* Network.swift */; };
@@ -55,7 +55,7 @@
 		987F0F122916CCC600F3EADC /* FindYourDrinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindYourDrinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		987F0F162916CCC600F3EADC /* FindYourDrinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindYourDrinkUITests.swift; sourceTree = "<group>"; };
 		987F0F182916CCC600F3EADC /* FindYourDrinkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindYourDrinkUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		987F0F262916D03300F3EADC /* MockData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockData.json; sourceTree = "<group>"; };
+		987F0F262916D03300F3EADC /* MockData1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockData1.json; sourceTree = "<group>"; };
 		987F0F282916D1FE00F3EADC /* DrinksList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksList.swift; sourceTree = "<group>"; };
 		987F0F2A2916D23100F3EADC /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
 		987F0F2D2916D82200F3EADC /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
@@ -154,7 +154,7 @@
 		987F0F252916CF6C00F3EADC /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				987F0F262916D03300F3EADC /* MockData.json */,
+				987F0F262916D03300F3EADC /* MockData1.json */,
 				987F0F282916D1FE00F3EADC /* DrinksList.swift */,
 				987F0F2A2916D23100F3EADC /* Drink.swift */,
 			);
@@ -292,7 +292,7 @@
 			files = (
 				987F0EFE2916CCC600F3EADC /* Preview Assets.xcassets in Resources */,
 				987F0EFB2916CCC600F3EADC /* Assets.xcassets in Resources */,
-				987F0F272916D03300F3EADC /* MockData.json in Resources */,
+				987F0F272916D03300F3EADC /* MockData1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

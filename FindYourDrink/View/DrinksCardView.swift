@@ -37,6 +37,7 @@ struct DrinksCardView: View {
                     Text(drinkType)
                         .font(.caption)
                 }
+                Spacer()
             }
             .padding()
             .frame(maxWidth: .infinity)

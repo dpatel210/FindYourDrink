@@ -15,4 +15,5 @@ struct Drink: Codable, Hashable {
     let strTags: String
     let strInstructions: String
     let strDrinkThumb: String
+    let strAlcoholic: String
 }

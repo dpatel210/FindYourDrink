@@ -19,9 +19,16 @@ struct DrinksMainView: View {
         if model.drinks.count != 0 {
             List {
                 ForEach(model.drinks, id: \.self) { drink in
-                    Text(drink.strDrink)
+                    NavigationLink {
+                        Text(drink.strDrink)
+                    } label: {
+                        DrinksCardView(urlImageStr: drink.strDrinkThumb, drinkName: drink.strDrink, drinkType: drink.strAlcoholic)
+                            .background(.clear)
+                    }
                 }
             }
+            .navigationTitle("Home")
+            .ignoresSafeArea(edges: [.bottom, .horizontal])
         }
         
     }
