@@ -11,6 +11,8 @@ struct DrinksMainView: View {
     
     @ObservedObject var model: DrinksMainViewModel = DrinksMainViewModel()
     
+    @State var drinkToSearch: String = ""
+    
     init() {
         model.getRandomDrinks()
     }
@@ -18,12 +20,25 @@ struct DrinksMainView: View {
     var body: some View {
         if model.drinks.count != 0 {
             List {
+                HStack {
+                    Spacer()
+                    TextField("Search for a Drink", text: $drinkToSearch)
+                    Spacer()
+                }
                 ForEach(model.drinks, id: \.self) { drink in
                     NavigationLink {
                         Text(drink.strDrink ?? "")
                     } label: {
                         DrinksCardView(urlImageStr: drink.strDrinkThumb ?? "", drinkName: drink.strDrink ?? "", drinkType: drink.strAlcoholic ?? "")
                             .background(.clear)
+                    }
+                    .listRowSeparator(.hidden)
+                }
+            }
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button("Search") {
+                        model.searchForDrink(drink: drinkToSearch)
                     }
                 }
             }

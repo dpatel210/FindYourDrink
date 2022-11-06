@@ -23,6 +23,7 @@
 		987F0F312916EB2D00F3EADC /* DrinksMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F0F302916EB2D00F3EADC /* DrinksMainViewModel.swift */; };
 		987F0F342916EF7400F3EADC /* DrinksMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F0F332916EF7400F3EADC /* DrinksMainView.swift */; };
 		987F0F362916F23200F3EADC /* DrinksCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F0F352916F23200F3EADC /* DrinksCardView.swift */; };
+		987F0F3D291744D100F3EADC /* MockData2.json in Resources */ = {isa = PBXBuildFile; fileRef = 987F0F3C291744D100F3EADC /* MockData2.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		987F0F302916EB2D00F3EADC /* DrinksMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksMainViewModel.swift; sourceTree = "<group>"; };
 		987F0F332916EF7400F3EADC /* DrinksMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksMainView.swift; sourceTree = "<group>"; };
 		987F0F352916F23200F3EADC /* DrinksCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksCardView.swift; sourceTree = "<group>"; };
+		987F0F3C291744D100F3EADC /* MockData2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockData2.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				987F0EFA2916CCC600F3EADC /* Assets.xcassets */,
 				987F0F012916CCC600F3EADC /* FindYourDrink.xcdatamodeld */,
 				987F0F262916D03300F3EADC /* MockData1.json */,
+				987F0F3C291744D100F3EADC /* MockData2.json */,
 				987F0F252916CF6C00F3EADC /* Model */,
 				987F0F2C2916D7ED00F3EADC /* Network */,
 				987F0F322916EF3400F3EADC /* View */,
@@ -290,6 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				987F0F3D291744D100F3EADC /* MockData2.json in Resources */,
 				987F0EFE2916CCC600F3EADC /* Preview Assets.xcassets in Resources */,
 				987F0EFB2916CCC600F3EADC /* Assets.xcassets in Resources */,
 				987F0F272916D03300F3EADC /* MockData1.json in Resources */,
