@@ -55,7 +55,7 @@
 		987F0F122916CCC600F3EADC /* FindYourDrinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindYourDrinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		987F0F162916CCC600F3EADC /* FindYourDrinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindYourDrinkUITests.swift; sourceTree = "<group>"; };
 		987F0F182916CCC600F3EADC /* FindYourDrinkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindYourDrinkUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		987F0F262916D03300F3EADC /* MockData1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockData1.json; sourceTree = "<group>"; };
+		987F0F262916D03300F3EADC /* MockData1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = MockData1.json; path = /Users/dishantpatel/Developer/FindYourDrink/FindYourDrink/MockData1.json; sourceTree = "<absolute>"; };
 		987F0F282916D1FE00F3EADC /* DrinksList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksList.swift; sourceTree = "<group>"; };
 		987F0F2A2916D23100F3EADC /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
 		987F0F2D2916D82200F3EADC /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
@@ -116,6 +116,7 @@
 				987F0EF82916CCC500F3EADC /* ContentView.swift */,
 				987F0EFA2916CCC600F3EADC /* Assets.xcassets */,
 				987F0F012916CCC600F3EADC /* FindYourDrink.xcdatamodeld */,
+				987F0F262916D03300F3EADC /* MockData1.json */,
 				987F0F252916CF6C00F3EADC /* Model */,
 				987F0F2C2916D7ED00F3EADC /* Network */,
 				987F0F322916EF3400F3EADC /* View */,
@@ -154,7 +155,6 @@
 		987F0F252916CF6C00F3EADC /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				987F0F262916D03300F3EADC /* MockData1.json */,
 				987F0F282916D1FE00F3EADC /* DrinksList.swift */,
 				987F0F2A2916D23100F3EADC /* Drink.swift */,
 			);

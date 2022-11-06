@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1DEEBE2F-EDAE-4DF2-B9C3-C55DDD914848"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FAB2A57D-A104-49A9-9549-F2B6E14070BB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FindYourDrink/Network/Network.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "getRandomDrinks(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FAB2A57D-A104-49A9-9549-F2B6E14070BB - c6227797ae431758"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindYourDrink.Network.getRandomDrinks(completion: (Swift.Result&lt;FindYourDrink.DrinksList, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "FindYourDrink"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dishantpatel/Developer/FindYourDrink/FindYourDrink/Network/Network.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "FAB2A57D-A104-49A9-9549-F2B6E14070BB - c6227797ae431758"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindYourDrink.Network.getRandomDrinks(completion: (Swift.Result&lt;FindYourDrink.DrinksList, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "FindYourDrink"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dishantpatel/Developer/FindYourDrink/FindYourDrink/Network/Network.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "448">
+               </Location>
+               <Location
+                  uuid = "FAB2A57D-A104-49A9-9549-F2B6E14070BB - c6227797ae431758"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindYourDrink.Network.getRandomDrinks(completion: (Swift.Result&lt;FindYourDrink.DrinksList, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "FindYourDrink"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dishantpatel/Developer/FindYourDrink/FindYourDrink/Network/Network.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "988">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "800ED0C1-C825-44D6-919B-C1B664DB1C20"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FindYourDrink/Network/Network.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "getRandomDrinks(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "800ED0C1-C825-44D6-919B-C1B664DB1C20 - c6227797ae43171a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindYourDrink.Network.getRandomDrinks(completion: (Swift.Result&lt;FindYourDrink.DrinksList, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "FindYourDrink"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dishantpatel/Developer/FindYourDrink/FindYourDrink/Network/Network.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "616">
+               </Location>
+               <Location
+                  uuid = "800ED0C1-C825-44D6-919B-C1B664DB1C20 - 361b77debbe59cb0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FindYourDrink.Network.getRandomDrinks(completion: (Swift.Result&lt;FindYourDrink.DrinksList, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "FindYourDrink"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dishantpatel/Developer/FindYourDrink/FindYourDrink/Network/Network.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "296">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

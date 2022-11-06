@@ -12,6 +12,8 @@ struct ContentView: View {
         NavigationView {
             DrinksMainView()
         }
+        .navigationBarTitleDisplayMode(.inline)
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
