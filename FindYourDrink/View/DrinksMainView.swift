@@ -27,7 +27,7 @@ struct DrinksMainView: View {
                 }
                 ForEach(model.drinks, id: \.self) { drink in
                     NavigationLink {
-                        Text(drink.strDrink ?? "")
+                        DrinkDetailView(imageURLString: drink.strDrinkThumb ?? "", drinkName: drink.strDrink ?? "", drinkType: drink.strAlcoholic ?? "", drinkInstructions: drink.strInstructions ?? "")
                     } label: {
                         DrinksCardView(urlImageStr: drink.strDrinkThumb ?? "", drinkName: drink.strDrink ?? "", drinkType: drink.strAlcoholic ?? "")
                             .background(.clear)

@@ -30,6 +30,9 @@ struct DrinksCardView: View {
                         .clipShape(Circle())
                 } placeholder: {
                     Image(systemName: "cup.and.saucer.fill")
+                        .resizable()
+                        .frame(width:60, height: 60)
+                        .clipShape(Circle())
                 }
                 VStack(alignment: .leading) {
                     Text(drinkName)

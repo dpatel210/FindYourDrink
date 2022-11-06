@@ -24,6 +24,7 @@
 		987F0F342916EF7400F3EADC /* DrinksMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F0F332916EF7400F3EADC /* DrinksMainView.swift */; };
 		987F0F362916F23200F3EADC /* DrinksCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F0F352916F23200F3EADC /* DrinksCardView.swift */; };
 		987F0F3D291744D100F3EADC /* MockData2.json in Resources */ = {isa = PBXBuildFile; fileRef = 987F0F3C291744D100F3EADC /* MockData2.json */; };
+		987F0F3F29174F4300F3EADC /* DrinkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F0F3E29174F4300F3EADC /* DrinkDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		987F0F332916EF7400F3EADC /* DrinksMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksMainView.swift; sourceTree = "<group>"; };
 		987F0F352916F23200F3EADC /* DrinksCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksCardView.swift; sourceTree = "<group>"; };
 		987F0F3C291744D100F3EADC /* MockData2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockData2.json; sourceTree = "<group>"; };
+		987F0F3E29174F4300F3EADC /* DrinkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 			children = (
 				987F0F332916EF7400F3EADC /* DrinksMainView.swift */,
 				987F0F352916F23200F3EADC /* DrinksCardView.swift */,
+				987F0F3E29174F4300F3EADC /* DrinkDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				987F0F3F29174F4300F3EADC /* DrinkDetailView.swift in Sources */,
 				987F0F312916EB2D00F3EADC /* DrinksMainViewModel.swift in Sources */,
 				987F0F002916CCC600F3EADC /* Persistence.swift in Sources */,
 				987F0EF92916CCC500F3EADC /* ContentView.swift in Sources */,
