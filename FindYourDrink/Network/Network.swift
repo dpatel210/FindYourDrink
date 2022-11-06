@@ -35,6 +35,8 @@ class Network {
                 return
             }
             
+            
+            
             DispatchQueue.main.async {
                 if let drinksObject = try? JSONDecoder().decode(DrinksList.self, from: data) {
                     completion(.success(drinksObject))

@@ -20,13 +20,14 @@ struct DrinksMainView: View {
             List {
                 ForEach(model.drinks, id: \.self) { drink in
                     NavigationLink {
-                        Text(drink.strDrink)
+                        Text(drink.strDrink ?? "")
                     } label: {
-                        DrinksCardView(urlImageStr: drink.strDrinkThumb, drinkName: drink.strDrink, drinkType: drink.strAlcoholic)
+                        DrinksCardView(urlImageStr: drink.strDrinkThumb ?? "", drinkName: drink.strDrink ?? "", drinkType: drink.strAlcoholic ?? "")
                             .background(.clear)
                     }
                 }
             }
+            .navigationBarTitleDisplayMode(.inline)
             .navigationTitle("Home")
             .ignoresSafeArea(edges: [.bottom, .horizontal])
         }

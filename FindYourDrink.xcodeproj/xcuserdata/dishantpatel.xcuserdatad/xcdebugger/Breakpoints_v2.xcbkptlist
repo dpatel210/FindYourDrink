@@ -110,7 +110,55 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "29"
                   endingLineNumber = "29"
-                  offsetFromSymbolStart = "296">
+                  offsetFromSymbolStart = "316">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C14BE299-5EE2-4CB2-8E53-4A5E360F9C63"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FindYourDrink/Network/Network.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "getRandomDrinks(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C14BE299-5EE2-4CB2-8E53-4A5E360F9C63 - 361b77debbe59d0d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FindYourDrink.Network.getRandomDrinks(completion: (Swift.Result&lt;FindYourDrink.DrinksList, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "FindYourDrink"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dishantpatel/Developer/FindYourDrink/FindYourDrink/Network/Network.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "404">
+               </Location>
+               <Location
+                  uuid = "C14BE299-5EE2-4CB2-8E53-4A5E360F9C63 - 361b77debbe59d0d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FindYourDrink.Network.getRandomDrinks(completion: (Swift.Result&lt;FindYourDrink.DrinksList, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "FindYourDrink"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dishantpatel/Developer/FindYourDrink/FindYourDrink/Network/Network.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "548">
                </Location>
             </Locations>
          </BreakpointContent>
